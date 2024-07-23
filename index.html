@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess Who</title>
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="data:,">
+</head>
+<body>
+    <div id ="game">
+<div id="instruction-board">
+<h1>Wellcome</h1>
+<h2>Who Im i?</h2>
+<p id='instruction'></p>
+<ul>
+<li>you have 1 minute to guess the name of the famous person</li>
+<li>you will receive three hints to help you guessing</li>
+<li>you will have 10 attempts</li>
+<li>your score will be shown on the scoreboard</li>
+
+</ul>
+<button id="start-button">Start Game</button>
+</div>
+<div id="game-board" style="display: none;">
+    <div id="score-time">
+<div id="score">score: 0</div>
+<div id="timer">Time Left: 60</div>
+
+</div>
+<p id="attempts">Attempts: 0/10</p>
+<div id="hint-board">
+<p id="hint-1"></p>
+<p id="hint-2"></p>
+<p id="hint-3"></p>
+<button id="extra-hint-button">lol</button>
+<p id="extra-hint" style="display: none;"></p>
+
+</div>
+<input id="guess-input" type="text"  placeholder="Enter your guess here..."/>
+<!-- <input id="person-display" type="text"/> -->
+<button id="submit-guess">Submit Guess</button>
+<p id="result"></p>
+</div>
+
+    </div>
+    <!-- <script src="app.js"</script> -->
+    <script src="app.js"></script>
+</body>
+
+</html>

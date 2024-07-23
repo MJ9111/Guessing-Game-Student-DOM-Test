@@ -1,0 +1,64 @@
+body {
+font-family: Arial, Helvetica, sans-serif;
+background-color: blue;
+display: flex;
+justify-content: center;
+height: 100vh;
+margin: 0;
+}
+
+#game {
+background-color: blueviolet;
+border-radius: 8px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+padding: 20px;
+text-align: center;
+width: 300px;
+}
+
+
+#instruction-board ul {
+
+    text-align: left;
+}
+
+#score-time {
+
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+#hint-board p {
+margin: 5px 0 ;
+
+}
+
+button {
+background-color: darkgreen;
+border: none;
+border-radius: 4px;
+color: aqua;
+cursor: pointer;
+padding: 10px 20px;
+}
+
+button:hover {
+    background-color: crimson;
+}
+
+input {
+border: 1px solid #ccc;
+border-radius: 4px;
+padding: 10px;
+width: 100%;
+margin-bottom: 10px;
+
+}
+
+
+#result{
+margin-top: 20px;
+font-weight: bold;
+
+}
